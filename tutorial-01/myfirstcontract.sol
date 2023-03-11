@@ -3,7 +3,8 @@ pragma solidity ^0.5.0;
 contract MyFirstContract {
     string private name;
     uint private age;
-    
+    string private race;
+
     function setName(string memory newName) public {
         name = newName;
     }
